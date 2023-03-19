@@ -5,3 +5,6 @@
 To capture live Wikipedia media data change using Kafka Clients and store the same in OpenSearch Database!
 
 To View wikipedia data change -> https://stream.wikimedia.org/v2/stream/recentchange
+
+Build the maven project using command -> mvn clean install
+Build the docker-compose file for Kafka containers using command -> docker-compose up --build -d
